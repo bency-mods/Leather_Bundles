@@ -6,10 +6,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class LeatherBundles implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
     public static final Logger LOGGER = LoggerFactory.getLogger("leatherbundle");
+	// If you're reading this, this shit is crazy simple. Check resource/data/leatherbundle/recipes.
+	// That's literally it. I'm not kidding.
 
 	@Override
 	public void onInitialize() {
